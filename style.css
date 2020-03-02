@@ -10,6 +10,30 @@ header  {
   flex-direction: column;
 }
 
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: #1f325c;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  justify-content: center;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: ebrima;
+}
+
 .container {
   display: flex;
   flex-direction: column;
