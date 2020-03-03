@@ -201,3 +201,68 @@ footer {
   background: #ffffff;
 }
 /* Kontaktformular */
+
+#myform{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: ebrima;
+}
+
+.kontakt-wrapper{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.kontakt-wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: ebrima;
+}
+
+.kontakt-wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.kontakt-wrapper .input_field input[type="text"],
+.kontakt-wrapper textarea{
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.kontakt-wrapper textarea{
+  height: 80px;
+  resize: none;
+}
+
+.kontakt-wrapper .btn input[type="submit"]{
+  border: none;
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: #fece0c;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.kontakt-wrapper #error_message{
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #fe8b8e;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}

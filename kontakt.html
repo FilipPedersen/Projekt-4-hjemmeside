@@ -11,42 +11,43 @@
 
       <header>
         <nav>
+          <img class="logo" src="parkandbikelogo.png" alt="Park and Bike logo" height="55px"><a href="index.html"></a></img>
           <ul>
             <li><a href="index.html">Forside</a></li>
             <li><a href="#">Om Park&Bike</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
             <li><a href="#"></a></li>
           </ul>
         </nav>
+        <script src="navbaranimation.js"></script>
+      </header>
 
-  <div class="info-header"><p>Håber det virker</p>
-
+<div class="info-header">
 
         <div class="kontakt-wrapper">
           <h2>Kontakt Park&Bike her</h2>
-          <div class="error_message"></div>
+          <div id="error_message"></div>
 
-          <form id="myform">
+          <form id="myform" onsubmit="return validation()">
             <div class="input_field">
-              <<input type="text" placeholder="Dit Fulde Navn" id="name">
+              <input type="text" placeholder="Fulde Navn" id="name">
             </div>
             <div class="input_field">
-              <<input type="text" placeholder="Din Email" id="email">
+              <input type="text" placeholder="Email" id="email">
             </div>
             <div class="input_field">
-              <<input type="text" placeholder="'Dit Nummer" id="nummer">
+              <input type="text" placeholder="Telefonnummer" id="nummer">
             </div>
             <div class="input_field">
-              <textarea id="besked" placeholder="Besked"></textarea>
+              <textarea id="besked" placeholder="Din Besked"></textarea>
             </div>
             <div class="btn">
-              <input type="Send">
+              <input type="submit">
             </div>
           </form>
         </div>
-
-      </header>
-
+</div>
       <footer>2020 - Gruppe 22</footer>
+        <script src="kontakt.js"></script>
     </body>
 </html>
