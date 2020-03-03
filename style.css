@@ -95,6 +95,7 @@ footer {
 }
 
 .info3 p {
+  display: inline-block;
   text-align: right;
   left: 0;
   color: #1f325c;
@@ -111,7 +112,7 @@ footer {
   height: inherit;
   width: 100%;
   background-color: #1f325c;
-  z-index:5;
+  position: absolute;
 
 }
 
