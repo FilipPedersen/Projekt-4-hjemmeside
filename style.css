@@ -59,6 +59,27 @@ li a:hover {
 .info-header {
   height: 100vh;
   background: #fff;
+  background-image: url("custom1.jpg");
+  background-size: cover;
+}
+
+.parkandbikelogo  {
+  display: block;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+
+}
+
+h2 {
+  display: flex;
+  color: #fff;
+  font-family: ebrima;
+  font-size: 40px;
+  justify-content: center;
+  margin-top: 0;
+
 }
 
 .info {
