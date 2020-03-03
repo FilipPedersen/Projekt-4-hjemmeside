@@ -1,7 +1,9 @@
-$(window).scroll(function() {
-  if ($(document).scrollTop() > 50) {
-    $('nav').addClass('transparent');
-  } else {
-    $('nav').removeClass('transparent');
+$(window).on('scroll', function(){
+  if ($(window).scrollTop()){
+      $('nav').addClass('black');
   }
-});
+  else
+  {
+    $('nav').removeClass('black');
+  }
+})
