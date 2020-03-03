@@ -16,6 +16,7 @@ nav {
   background-color: #1f325c;
   height: 50px;
   box-shadow: 0px 1px 5px #444;
+  z-index: 100000;  /* Jeg lavede denne rettelse, så navbaren altid er øverst - Oliver */
 }
 
 .logo {
@@ -85,15 +86,65 @@ footer {
   width: 100%;
 }
 
+/* Oliver Start */
+
 .info3 {
   height: 60vh;
   width: 100%;
-  background: white;
+  background-color: #fce000;
+  position: relative;
 }
 
-.back {
+.info3 p {
+  text-align: right;
+  left: 0;
+  color: #1f325c;
   width: 100%;
+  font-size: 100px;
+  position:inherit;
 }
+
+#box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  background-color: #1f325c;
+  position: sticky;
+
+}
+
+#penge {
+    height: 45vh;
+    margin-right: 90vh;
+}
+
+.animate {
+          animation: animate 1s ease-in-out forwards;
+}
+
+@keyframes animate {
+  from {
+    opacity: 1;
+    transform: translate3d(0vw, 0px, 0px);
+  }
+  to {
+    opacity: 1;
+    transition: all 1500ms linear;
+    transform: translate3d(-50vw, 0px, 0px);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #penge {
+      height: 35vh;
+      margin-right: 120vh;
+  }
+}
+
+/* Oliver Slut */
 
 /* Kontaktformular */
 
