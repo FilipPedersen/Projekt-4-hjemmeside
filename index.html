@@ -6,7 +6,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta charset="UTF-8">
             <link rel="stylesheet" href="style.css" type="text/css">
-
+            <script type="text/javascript" src="navbaranimation.js"></script>
         </head>
 
     <body>
@@ -15,15 +15,16 @@
         <nav>
           <img class="logo" src="parkandbikelogo.png" alt="Park and Bike logo" height="55px"><a href="index.html"></a></img>
           <ul>
-            <li><a href="index.html">Forside</a></li>
-            <li><a href="#">Om Park&Bike</a></li>
+            <li><a href="index.html" onclick="return false;" onmousedown="autoScrollTo();">Forside</a></li>
+            <li><a href="#" onclick="return false;" onmousedown="autoScrollTo('info6');">Om Park&Bike</a></li>
+            <li><a href="#" onclick="return false;" onmousedown="autoScrollTo('info7');">Kom Igang</a></li>
+            <li><a href="#" onclick="return false;" onmousedown="autoScrollTo('info3');">Pris</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="#"></a></li>
           </ul>
         </nav>
-
-        <div class="info-header"><p>Håber det virker</p>
-
+        <div class="info-header">
+          <img class="parkandbikelogo" src="parkandbikelogo.png" alt="park and bike logo"></img>
+          <h2>Der er bedre ting at bruge tiden på</h2>
         </div>
 
       </header>
@@ -32,10 +33,40 @@
 
           <div class="info"><p>2</p></div>
 
-          <div class="info3">
+          <div class="info3" id="info3">
 
-            <p>1235</p>
-            <div id="box3"><img id="penge" src="penge2.svg" alt="illustration-af-penge"></div>
+            <div id="text_box">
+              <div id="text_titel">
+                <div id="pris_titel"><h3 class="pris_titel">PRISEN</h3></div>
+              </div>
+
+              <div id="text_tal">
+                <div id="text_tal_container">
+
+                  <div id="text_tal_box_ek">
+                  </div>
+
+                  <div id="text_tal_box1">
+                    <div id="pris"><p class="pris">0</p></div>
+                    <div id="kroner"><p class="kroner">kr</p></div>
+                  </div>
+
+                  <div id="text_tal_box1">
+                    <div id="pris"><p class="pris">100</p></div>
+                    <div id="kroner"><p class="kroner">kr</p></div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="text_knap">
+                <div id="cta_kontakt"><a class="cta_kontakt" href="#"> Læs mere </a></div>
+              </div>
+            </div>
+
+            <div id="box3">
+              <div id="box4"><img src="penge2.svg" alt="illustration-af-penge">
+                </div>
+            </div>
 
           </div>
 
