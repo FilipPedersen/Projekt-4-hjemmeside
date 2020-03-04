@@ -13,6 +13,8 @@ header  {
 
 nav {
   position: fixed;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   background-color: #1f325c;
   height: 50px;
@@ -22,7 +24,6 @@ nav {
 
 .logo {
   display: flex;
-  position: fixed;
   margin-left: 20px;
   align-items: center;
 }
@@ -32,7 +33,6 @@ ul {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  justify-content: center;
 }
 
 li a {
@@ -49,6 +49,22 @@ li a:hover {
   transition: 0.5s ease;
 }
 
+.burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.burger div {
+  background-color: #fff;
+  width: 25px;
+  height: 3px;
+  margin: 3px;
+
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -57,10 +73,10 @@ li a:hover {
 }
 
 
-.info-header {
+.banner {
   height: 100vh;
   background: #fff;
-  background-image: url("images/custom1.jpg");
+  background-image: url("images/parkandbike2.jpg");
   background-size: cover;
 }
 
