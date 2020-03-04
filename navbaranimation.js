@@ -18,14 +18,3 @@ function autoScrollTo(el) {
 	    }
 	}
 }
-function resetScroller(el){
-	var currentY = window.pageYOffset;
-    var targetY = document.getElementById(el).offsetTop;
-	var animator = setTimeout('resetScroller(\''+el+'\')',speed);
-	if(currentY > targetY){
-		scrollY = currentY-distance;
-		window.scroll(0, scrollY);
-	} else {
-		clearTimeout(animator);
-	}
-}
