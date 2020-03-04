@@ -2,7 +2,7 @@ html, body {
   margin: 0px;
   width: 100%;
   height: auto;
-  background-color: blue;
+  background-color: #ffffff;
   overflow-x: hidden;
 }
 
@@ -293,11 +293,9 @@ footer {
 
   }
 }
-
-
 /* Oliver Slut */
 
-/* Emma Start */
+/* Emma og Laura Start */
 .info4{
   height: 70vh;
   width: 100%;
@@ -320,18 +318,24 @@ footer {
   height: 70vh;
   width: 100%;
   background: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.imgbogerservice{
+.imgborgerservice{
+  float: left;
 }
 
-.imghænderchip{
+.imgchip{
+  float: right;
 }
 
 .imgparkering{
+  float: left;
 }
 
-.imgdamecykler{
+.imgdamecykel{
+  float: right;
 }
 /* Kontaktformular */
 
