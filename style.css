@@ -358,10 +358,12 @@ footer {
 
 .kontakt-wrapper h2{
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-family: ebrima;
+  color: #000000;
+  font-size: 24px;
 }
 
 .kontakt-wrapper .input_field{
@@ -370,7 +372,7 @@ footer {
 
 .kontakt-wrapper .input_field input[type="text"],
 .kontakt-wrapper textarea{
-  width: 100%;
+  width: 94%;
   border: 1px solid #e0e0e0;
   padding: 10px;
 }
