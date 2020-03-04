@@ -3,7 +3,6 @@ html, body {
   width: 100%;
   height: auto;
   background-color: #ffffff;
-  overflow-x: hidden;
 }
 
 header  {
@@ -72,6 +71,10 @@ li a:hover {
 }
 
 @media screen and (max-width:768px){
+  body {
+    overflow-x: hidden;
+  }
+
   .nav-link{
     position: absolute;
     right: 0px;
@@ -86,7 +89,7 @@ li a:hover {
     transition: transform 0.5s ease-in;
   }
   .nav-link li{
-    opacity: 0;
+    opacity: 1;
   }
   .burger {
     display: block;
