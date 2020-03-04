@@ -1,0 +1,56 @@
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: auto;
+  height: 30vh;
+  width: 100%;
+}
+
+/* Step by Step */
+.stepbystep{
+  height: 70vh;
+  width: 100%;
+  background: #ffffff;
+}
+
+.stepoverskrift{
+  text-align: center;
+}
+
+.step1{
+  float: right;
+}
+
+.step2{
+  float: left;
+}
+
+.step3{
+  float: right;
+}
+
+.step4{
+  float: left;
+}
+
+.imgborgerservice{
+  float: left;
+}
+
+.imgchip{
+  float: right;
+}
+
+.imgparkering{
+  float: left;
+}
+
+.imgdamecykel{
+  float: right;
+}
