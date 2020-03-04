@@ -401,7 +401,7 @@ color: black;
 .imgdamecykel{
   float: right;
 }
-/* Kontaktformular */
+/* Kontaktundersiden */
 
 #myform{
   margin: 0;
@@ -413,7 +413,7 @@ color: black;
 
 .kontakt-wrapper{
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 20%;
   max-width: 350px;
   width: 100%;
@@ -468,4 +468,17 @@ color: black;
   text-align: center;
   font-size: 14px;
   transition: all 0.5s ease;
+}
+
+.mobil{
+  float: right;
+  margin-right: 25%;
+  margin-top: 12%;
+}
+
+.mobilkort{
+  height: auto;
+  width: 100%;
+  max-width: 250px;
+
 }
