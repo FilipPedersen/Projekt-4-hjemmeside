@@ -14,5 +14,23 @@ function validation(){
     return false;
   }
 
-  return false;
+  if(email.indexOf("@") == -1 || email.length < 6){
+    text = "Skriv venligst en gyldig email";
+    error_message.innerHTML = text;
+    return false;
+  }
+
+  if(isNaN(nummer) || nummer.length !=8){
+    text = "Skriv venligst et gyldigt nummer";
+    error_message.innerHTML = text;
+    return false;
+  }
+
+  if(message.length <= 1){
+    text = "Skriv venligst din besked";
+    error_message.innerHTML = text;
+    return false;
+  }
+  alert("Din besked blev sendt!")
+  return true;
 }
