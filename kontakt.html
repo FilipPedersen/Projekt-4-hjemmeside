@@ -1,25 +1,29 @@
 <!doctype html>
     <html lang="da">
-      <head>
-        <title>  Park&Bike - gør hverdagen lettere, parker gratis og mød til tiden </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css" type="text/css">
-      </head>
+
+        <head>
+            <title>  Park and Bike gør hverdagen lettere, parker gratis og mød til tiden </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="style.css" type="text/css">
+            <script type="text/javascript" src="navbaranimation.js"></script>
+        </head>
 
     <body>
 
       <header>
-        <nav>
+        <nav id="nav">
           <img class="logo" src="images/parkandbikelogo.png" alt="Park and Bike logo" height="55px"><a href="index.html"></a></img>
           <ul>
-            <li><a href="index.html">Forside</a></li>
-            <li><a href="#">Om Park&Bike</a></li>
+            <li><a href="index.html" onclick="return false;" onmousedown="autoScrollTo();">Forside</a></li>
+            <li><a href="#" onclick="return false;" onmousedown="autoScrollTo('info6');">Om Park&Bike</a></li>
+            <li><a href="#" onclick="return false;" onmousedown="autoScrollTo('info7');">Kom Igang</a></li>
+            <li><a href="#" onclick="return false;" onmousedown="autoScrollTo('info3');">Pris</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="#"></a></li>
           </ul>
+          <script src="navbaranimation.js"></script>
         </nav>
-        <script src="navbaranimation.js"></script>
+
       </header>
 
 <div class="info-header">
@@ -46,6 +50,7 @@
             </div>
           </form>
         </div>
+
 </div>
       <footer>2020 - Gruppe 22</footer>
         <script src="kontakt.js"></script>
