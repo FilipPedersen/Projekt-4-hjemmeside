@@ -327,18 +327,36 @@ footer {
 
 #baggrund{
 
-  background-image: url("image/baggrund.png");
+  background-image: url("images/baggrund123.png");
   height: 1200px;
   background-size: cover;
   width: 100%;
   position: absolute;
+  background-color: #fce000;
+}
+
+div#peekaboo{
+    position:fixed;
+    bottom:0px;
+    right:-352px;
+    background: #1f325c;
+    padding:25px;
+    width:300px;
+    height:200px;
+    font-size:48px;
+}
+
+.peekabookasse{
+  height:1600px;
+  font-size: 18px;
 }
 
 
 .info5{
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: ebrima;
+  color: #fce000;
 
 }
 
@@ -495,6 +513,6 @@ color: black;
 .mobilkort{
   height: auto;
   width: 100%;
-  max-width: 250px;
+  max-width: 210px;
 
 }
