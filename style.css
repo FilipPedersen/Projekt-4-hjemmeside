@@ -311,6 +311,69 @@ footer {
   background: #ffffff;
 }
 
+#baggrund{
+
+  background-image: url("image/baggrund.png");
+  height: 1200px;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+}
+
+
+.info5{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+
+}
+
+.tekst5{
+  text-align: center;
+  position: absolute;
+  left: 50;
+  width: 100%;
+
+
+
+}
+.text1{
+  color: black;
+  text-transform: uppercase;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  background: white;
+  position: relative;
+  animation: text 3s 1;
+
+}
+
+.text2{
+  font-size: 25px;
+color: black;
+
+}
+
+@keyframes text{
+  0%{
+    color: white;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 15px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+
+  }
+}
+
+
 .info6{
   height: 70vh;
   width: 100%;
