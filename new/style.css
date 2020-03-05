@@ -3,6 +3,7 @@ html, body {
   width: 100%;
   height: auto;
   background-color: #ffffff;
+  font-family: ebrima;
 }
 
 header  {
@@ -487,8 +488,8 @@ color: black;
 
 .kontakt-wrapper{
   position: absolute;
-  top: 25%;
-  left: 20%;
+  top: 15%;
+  left: 15%;
   max-width: 350px;
   width: 100%;
   background: #fff;
@@ -547,7 +548,7 @@ color: black;
 .mobil{
   float: right;
   margin-right: 25%;
-  margin-top: 12%;
+  margin-top: 4%;
 }
 
 .mobilkort{
@@ -557,12 +558,48 @@ color: black;
 
 }
 
-.info-box{
-  width: 300px;
-  height: 200px;
-  background-color: red;
+.flex-infobox{
+  align-items: center;
 }
 
-section{
-  background: #1f325c;
+.flex-infobox div{
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 10px;
+
 }
+
+.mobil .info-box2{
+  width: 350px;
+  height: 400px;
+  background-color: #1f325c;
+  border-radius: 10px;
+}
+
+.banner2{
+  height: 100vh;
+  background: #fff;
+  background-image: url("images/parkandbike2.jpg");
+  background-size: cover;
+}
+
+.flex-infobox p{
+  font-size: 15px;
+}
+
+.flex-infobox h3{
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.flex-infobox span{
+  font-weight: bold;
+}
+
+/* section{ */
+  /* background: #1f325c; */
+  /* margin-top: -20px; */
+/* } */
