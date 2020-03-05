@@ -3,7 +3,7 @@ html, body {
   width: 100%;
   height: auto;
   background-color: #ffffff;
-  font-family: ebrima;
+  overflow-x: hidden;
 }
 
 header  {
@@ -12,6 +12,8 @@ header  {
 }
 
 nav {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,10 +21,20 @@ nav {
   height: 6vh;
   box-shadow: 0px 1px 5px #444;
   font-family: ebrima;
+  z-index: 100000;
+}
+
+.banner {
+  background-image: url(images/parkandbike2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
 }
 
 .logo {
   display: flex;
+  position: fixed;
   margin-left: 20px;
   left: 0px;
 }
@@ -30,6 +42,9 @@ nav {
 .nav-link {
   display: flex;
   list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  justify-content: center;
   justify-content: space-around;
   width: 30%;
 }
@@ -51,6 +66,8 @@ li a:hover {
   transition: 0.5s ease;
 }
 
+<<<<<<< HEAD
+=======
 /* Burger menu */
 
 .burger {
@@ -79,8 +96,8 @@ li a:hover {
   .nav-link{
     position: absolute;
     right: 0px;
-    height: 97vh;
-    top: 3vh;
+    height: 95vh;
+    top: 5vh;
     background-color: #1f325c;
     display: flex;
     flex-direction: column;
@@ -88,6 +105,7 @@ li a:hover {
     width: 30%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    z-index: 100000;
   }
   .nav-link li{
     opacity: 1;
@@ -108,8 +126,8 @@ li a:hover {
   align-items: center;
 }
 
-
-.banner{
+/* IKKE SLET!!!!*/
+.banner {
   height: 100vh;
   background: #fff;
   background-image: url("images/parkandbike2.jpg");
@@ -118,11 +136,11 @@ li a:hover {
 
 .parkandbikelogo  {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  margin-bottom: 0;
-  margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-top: 160px;
 
 }
 
@@ -166,193 +184,6 @@ footer {
   width: 100%;
 }
 
-/* Oliver Start */
-
-.info3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: left;
-  flex-wrap: wrap;
-  height: 60vh;
-  width: 100%;
-  background-color: #fce000;
-}
-
-#text_box {
-  display: flex;
-  flex-direction:column;
-  justify-content: flex-end;
-  align-items: center;
-  flex-wrap: nowrap;
-  width: inherit;
-  height: inherit;
-  margin-right: 4vw;
-}
-
-#text_titel {
-  margin-left: 34vw;
-  height: 20vh;
-}
-
-#text_titel h3.pris_titel {
-  color: #1f325c;
-  width: 100%;
-  font-size: 4em;
-  font-family: sans-serif;
-  margin-top: 5vh;
-  border-bottom: 5px solid #1f325c;
-}
-
-#text_tal {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin-right: 5vw;
-  width: inherit;
-  height: 30vh;
-}
-
-#text_tal_container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin-right: 0vw;
-  width: inherit;
-  height: inherit;
-}
-
-#text_tal_box_ek {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-  width: 49vw;
-}
-
-#text_tal_box1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin-top: -5vh;
-}
-
-#text_tal p.pris {
-  color: #1f325c;
-  width: 100%;
-  font-size: 10em;
-  font-family: sans-serif;
-}
-
-#text_tal p.kroner {
-  color: #1f325c;
-  width: 100%;
-  font-size: 2em;
-  font-family: sans-serif;
-}
-
-#text_knap {
-  margin-left: 25vw;
-  height: 10vh;
-}
-
-#text_knap .cta_kontakt {
-  font-family: sans-serif;
-  font-size: 90%;
-  font-weight: bold;
-  color: whitesmoke;
-  text-transform: uppercase;
-  text-decoration: none;
-  border: solid #1f325c 0px;
-  background-color: #1f325c;
-  padding: 10px 20px;
-  line-height: 3;
-}
-
-#text_knap .cta_kontakt:hover {
-    color: whitesmoke;
-    border: solid #1f325c 2px;
-    background-color: #1f325c;
-    transition: all 0.2s;
-}
-
-#box3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  height: inherit;
-  width: 100%;
-  background-color: #1f325c;
-  position: absolute;
-}
-
-#box4 {
-  margin-right: 50vw;
-}
-
-#box4 img {
-  height: 50vh;
-
-}
-
-.animate {
-          animation: animate 1s ease-in-out forwards;
-}
-
-@keyframes animate {
-  from {
-    opacity: 1;
-    transform: translate3d(0vw, 0px, 0px);
-  }
-  to {
-    opacity: 1;
-    transition: all 1500ms linear;
-    transform: translate3d(-50vw, 0px, 0px);
-  }
-}
-
-@media screen and (max-width: 1450px) {
-  #box4 {
-    margin-right: 50vw;
-  }
-
-  #box4 img {
-    height: 40vh;
-
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  #box4 {
-    margin-right: 150vw;
-  }
-
-  #box4 img {
-    height: 40vh;
-
-  }
-}
-
-@media screen and (max-width: 400px) {
-  #box4 {
-    margin-right: 162.5vw;
-  }
-
-  #box4 img {
-    height: 40vh;
-
-  }
-}
-/* Oliver Slut */
-
 /* Emma og Laura Start */
 .info4{
   height: 70vh;
@@ -360,31 +191,48 @@ footer {
   background: #ffffff;
 }
 
-.info5{
-  height: 70vh;
-  width: 100%;
-  background: #ffffff;
-}
-
 #baggrund{
 
-  background-image: url("images/baggrund123.png");
+  background-image: url("images/baggrund.png");
   height: 1200px;
   background-size: cover;
   width: 100%;
   position: absolute;
-  background-color: #fce000;
+  background-color: #ffffff;
 }
 
-div#peekaboo{
+.infoom{
+  background: white;
+  width: 100%;
+  height: 300px;
+  padding-top:
+
+
+}
+
+.infoom p{
+  font-size: 25px;
+  color: black;
+  font-family: ebrima;
+  text-align: center;
+}
+
+div#peekaboo5{
     position:fixed;
-    bottom:0px;
-    right:-352px;
-    background: #1f325c;
+    bottom:30px;
+    right:0px;
+  background-image: url("images/hejhej.png");
     padding:25px;
-    width:300px;
-    height:200px;
-    font-size:48px;
+    width:500px;
+    height:400px;
+}
+
+div#peekaboo5 p{
+  font-size: 25px;
+  text-align: center;
+  padding-right: 80px;
+  color: black;
+  font-family: ebrima;
 }
 
 .peekabookasse{
@@ -397,20 +245,22 @@ div#peekaboo{
   padding: 0;
   margin: 0;
   font-family: ebrima;
-  color: #fce000;
+  color: white;
 
 }
 
-.tekst5{
+.dropdowntext5{
   text-align: center;
   position: absolute;
   left: 50;
   width: 100%;
-
-
+  color: black;
 
 }
-.text1{
+
+
+
+.stortext5{
   color: black;
   text-transform: uppercase;
   display: block;
@@ -420,13 +270,15 @@ div#peekaboo{
   margin-bottom: 20px;
   background: white;
   position: relative;
-  animation: text 3s 1;
+  animation: text 8s 1;
+
+
 
 }
 
-.text2{
+.lilletext5{
   font-size: 25px;
-color: black;
+color: #000000;
 
 }
 
@@ -461,21 +313,6 @@ color: black;
   padding-right: 20px;
 }
 
-.imgborgerservice{
-  float: left;
-}
-
-.imgchip{
-  float: right;
-}
-
-.imgparkering{
-  float: left;
-}
-
-.imgdamecykel{
-  float: right;
-}
 /* Kontaktundersiden */
 
 #myform{
@@ -604,9 +441,282 @@ color: black;
   font-weight: bold;
   text-align: center;
   color: #ffffff;
-  
+
 }
 
 .kontaktoplysninger h3 span{
   color: #fece0c;
 }
+/* Step by Step */
+.tekststep p{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.step1 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step2 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step3 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step4 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.stepoverskrift h3{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.step1{
+  grid-column-start: 1 / 2;
+  grid-column-end: 1;
+}
+
+.imgborgerservice{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.imgchip{
+  grid-column-start: 1/2;
+  grid-column-end: 1;
+}
+
+.step2{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+.step3{
+  grid-column-start: 1/2;
+  grid-column-end: 1;
+}
+.imgparkering{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.imgdamecykel{
+  grid-column-start: 1/2;
+  grid-column-end: 1;
+}
+.step4{
+  grid-column-start: 2;
+  grid-column-end: 2;
+
+}
+/* Step by Step slut*/
+
+/* Prisen Animation */
+
+.pris_info_box {
+  display: block;
+  background-color: #fce000;
+  height: 70vh;
+  width: 100%;
+}
+
+#box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: inherit;
+  width: 100%;
+  background-color: #1f325c;
+  position: absolute;
+}
+
+#slider {
+  margin-right: 430vw;
+}
+
+#slider img {
+  height: 50vh;
+  position: relative;
+
+}
+
+.animate {
+  animation: animate 1s ease-in-out forwards;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-family: sans-serif;
+  color: #1f325c;
+  margin: 0px 5vh;
+}
+
+.titel {
+  margin: 0vw 30vw;
+}
+
+.titel h3 {
+   font-size: 2rem;
+   border-bottom: 5px solid #1f325c;
+   margin-top: 12vh;
+}
+
+.tal_box{
+  display: block;
+  text-align: center;
+}
+
+.pris {
+   font-size: 1.2rem;
+   font-family: sans-serif;
+   margin-left: 15px;
+}
+
+
+.kroner {
+   font-size: 8rem;
+}
+
+.gratis {
+   text-align: center;
+   font-size: 0.8rem;
+   font-family: sans-serif;
+}
+
+.knap {
+  padding: 5vh;
+}
+
+.btn {
+    font-family: sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid #1f325c 2px;
+    background-color: #1f325c;
+    padding: 5px 40px;
+}
+
+@keyframes animate {
+  from {
+    opacity: 1;
+    transform: translate3d(0vw, 0px, 0px);
+  }
+  to {
+    opacity: 1;
+    transition: all 1500ms linear;
+    transform: translate3d(-100vw, 0px, 0px);
+  }
+}
+
+/* IPhone X */
+@media screen and (min-height: 811px) {
+  #slider img {
+    height: 41vh;
+
+  }
+}
+
+/* Pixel 2XL */
+@media screen and (min-height: 822px) {
+  #slider img {
+    height: 44.25vh;
+
+  }
+}
+
+/* Ipad */
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+  #slider img {
+    height: 50vh;
+  }
+  #slider {
+    margin-right: 325%;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #slider img {
+    height: 50vh;
+  }
+  #slider {
+    margin-right: 200%;
+  }
+
+  .gratis {
+     font-size: 1rem;
+     padding: 0px 110px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  #slider img {
+    height: 50vh;
+  }
+  #slider {
+    margin-right: 135%;
+  }
+
+}
+
+@media screen and (min-width: 1500px) {
+  #slider img {
+    height: 50vh;
+  }
+  #slider {
+    margin-right: 53%;
+  }
+
+  .text_box {
+    margin-left: 50%;
+  }
+
+  .gratis {
+     font-size: 1rem;
+     padding: 0px 300px;
+  }
+
+  @keyframes animate {
+    from {
+      opacity: 1;
+      transform: translate3d(0vw, 0px, 0px);
+    }
+    to {
+      opacity: 1;
+      transition: all 1500ms linear;
+      transform: translate3d(-50vw, 0px, 0px);
+    }
+  }
