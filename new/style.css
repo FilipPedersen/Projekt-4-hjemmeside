@@ -567,3 +567,74 @@ color: black;
 section{
   background: #1f325c;
 }
+
+/* Step by Step */
+p{
+  font-size: 25px;
+  font-family: "ebrima";
+  padding-top: 130px;
+  text-align: center;
+}
+
+h3{
+  font-size: 30px;
+}
+
+.tekst{
+  font-size: 10px;
+}
+
+.stepoverskrift{
+  text-align: center;
+  font-family: "ebrima";
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.step1{
+  grid-column-start: 1 / 2;
+  grid-column-end: 1;
+}
+
+.imgborgerservice{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.imgchip{
+  grid-column-start: 1/2;
+  grid-column-end: 1;
+}
+
+.step2{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+.step3{
+  grid-column-start: 1/2;
+  grid-column-end: 1;
+}
+.imgparkering{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.imgdamecykel{
+  grid-column-start: 1/2;
+  grid-column-end: 1;
+}
+.step4{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
