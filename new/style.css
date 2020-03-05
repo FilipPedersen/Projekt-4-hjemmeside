@@ -191,7 +191,7 @@ footer {
 
 #baggrund{
 
-  background-image: url("images/baggrund.png");
+  background-image: url("image/baggrund.png");
   height: 1200px;
   background-size: cover;
   width: 100%;
@@ -215,11 +215,11 @@ footer {
   text-align: center;
 }
 
-div#peekaboo5{
+div#peekaboo{
     position:fixed;
     bottom:30px;
     right:0px;
-  background-image: url("images/hejhej.png");
+  background-image: url("image/hejhej.png");
     padding:25px;
     width:500px;
     height:500px;
@@ -258,7 +258,7 @@ div#peekaboo5 p{
 
 
 
-.stortekst5{
+.stortext5{
   color: black;
   text-transform: uppercase;
   display: block;
@@ -274,7 +274,7 @@ div#peekaboo5 p{
 
 }
 
-.lilletekst5{
+.lilletext5{
   font-size: 25px;
 color: #000000;
 
