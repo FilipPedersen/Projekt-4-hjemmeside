@@ -109,7 +109,7 @@ li a:hover {
 }
 
 
-.banner {
+.banner{
   height: 100vh;
   background: #fff;
   background-image: url("images/parkandbike2.jpg");
@@ -118,11 +118,11 @@ li a:hover {
 
 .parkandbikelogo  {
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    margin-bottom: 0;
-    margin-top: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  margin-bottom: 0;
+  margin-top: 160px;
 
 }
 
@@ -489,7 +489,7 @@ color: black;
 .kontakt-wrapper{
   position: absolute;
   top: 15%;
-  left: 15%;
+  left: 20%;
   max-width: 350px;
   width: 100%;
   background: #fff;
@@ -532,7 +532,6 @@ color: black;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: bold;
-  border-radius: 25px;
   cursor: pointer;
 }
 
@@ -546,34 +545,38 @@ color: black;
 }
 
 .mobil{
-  float: right;
-  margin-right: 25%;
-  margin-top: 4%;
+
+  margin-right: 200px;
+  margin-top: -22%;
+  position: absolute;
 }
 
 .mobilkort{
   height: auto;
   width: 100%;
   max-width: 210px;
-
 }
 
-.flex-infobox{
-  align-items: center;
-}
-
-.flex-infobox div{
-  height: 200px;
-  background-color: #ffffff;
-  border-radius: 10px;
-
-}
-
-.mobil .info-box2{
-  width: 350px;
-  height: 400px;
+.info-box2{
+  width: 420px;
+  height: 350px;
   background-color: #1f325c;
   border-radius: 10px;
+  float: right;
+  margin-right: 19%;
+  margin-top: 6%;
+}
+
+.info-box2 span{
+  color: #fece0c;
+}
+
+.info-box2 p{
+  font-size: 18px;
+  margin-left: 200px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 30px;
 }
 
 .banner2{
@@ -583,23 +586,27 @@ color: black;
   background-size: cover;
 }
 
-.flex-infobox p{
-  font-size: 15px;
+.kontaktoplysninger{
+  width: 400px;
+  height: 200px;
+  background-color: #1f325c;
+  margin-top: -250px;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+
 }
 
-.flex-infobox h3{
-  text-align: center;
-  padding: 10px;
+.kontaktoplysninger h3{
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  
 }
 
-.flex-infobox span{
-  font-weight: bold;
+.kontaktoplysninger h3 span{
+  color: #fece0c;
 }
-
-/* section{ */
-  /* background: #1f325c; */
-  /* margin-top: -20px; */
-/* } */
