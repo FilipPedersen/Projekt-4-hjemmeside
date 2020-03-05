@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body {
   margin: 0px;
   width: 100%;
@@ -303,20 +304,30 @@ footer {
   background: #ffffff;
 }
 
-.info5{
-  height: 70vh;
-  width: 100%;
-  background: #ffffff;
-}
-
 #baggrund{
 
-  background-image: url("images/baggrund123.png");
+  background-image: url("image/baggrund.png");
   height: 1200px;
   background-size: cover;
   width: 100%;
   position: absolute;
-  background-color: #fce000;
+  background-color: #ffffff;
+}
+
+.infoom{
+  background: white;
+  width: 100%;
+  height: 300px;
+  padding-top:
+
+
+}
+
+.infoom p{
+  font-size: 25px;
+  color: black;
+  font-family: ebrima;
+  text-align: center;
 }
 
 div#peekaboo{
@@ -340,7 +351,7 @@ div#peekaboo{
   padding: 0;
   margin: 0;
   font-family: ebrima;
-  
+  color: white;
 
 }
 
@@ -349,10 +360,12 @@ div#peekaboo{
   position: absolute;
   left: 50;
   width: 100%;
-
-
+  color: black;
 
 }
+
+
+
 .text1{
   color: black;
   text-transform: uppercase;
@@ -363,13 +376,15 @@ div#peekaboo{
   margin-bottom: 20px;
   background: white;
   position: relative;
-  animation: text 3s 1;
+  animation: text 8s 1;
+
+
 
 }
 
 .text2{
   font-size: 25px;
-color: black;
+color: #000000;
 
 }
 
@@ -500,3 +515,61 @@ color: black;
   max-width: 210px;
 
 }
+=======
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: auto;
+  height: 30vh;
+  width: 100%;
+}
+
+/* Step by Step */
+.stepbystep{
+  height: 70vh;
+  width: 100%;
+  background: #ffffff;
+}
+
+.stepoverskrift{
+  text-align: center;
+}
+
+.step1{
+  float: right;
+}
+
+.step2{
+  float: left;
+}
+
+.step3{
+  float: right;
+}
+
+.step4{
+  float: left;
+}
+
+.imgborgerservice{
+  float: left;
+}
+
+.imgchip{
+  float: right;
+}
+
+.imgparkering{
+  float: left;
+}
+
+.imgdamecykel{
+  float: right;
+}
+>>>>>>> 4025ab4b877f1a4847b90837ed41d3f4849a1ae4
