@@ -14,19 +14,23 @@
       <header>
         <nav id="nav">
           <img class="logo" src="images/parkandbikelogo.png" alt="Park and Bike logo" height="55px"><a href="index.html"></a>
-          <ul>
-            <li><a href="index.html" onclick="return false;" onmousedown="autoScrollTo();">Forside</a></li>
-            <li><a href="#" onclick="return false;" onmousedown="autoScrollTo('info6');">Om Park&Bike</a></li>
-            <li><a href="#" onclick="return false;" onmousedown="autoScrollTo('info7');">Kom Igang</a></li>
-            <li><a href="#" onclick="return false;" onmousedown="autoScrollTo('info3');">Pris</a></li>
+          <ul class="nav-link">
+            <li><a href="index.html">Forside</a></li>
+            <li><a href="OmPark&Bike.html">Om</a></li>
+            <li><a href="#">Hvordan?</a></li>
+            <li><a href="#">Pris</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
           </ul>
-          <script src="navbaranimation.js"></script>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
         </nav>
 
       </header>
 
-<div class="info-header">
+<div class="banner">
 
         <div class="kontakt-wrapper">
           <h2>Kontakt Park&Bike her</h2>
@@ -65,5 +69,6 @@
 
       <footer>2020 - Gruppe 22</footer>
       <script src="js/kontakt.js"></script>
+      <script src="burger.js" type="text/javascript"></script>
     </body>
 </html>
