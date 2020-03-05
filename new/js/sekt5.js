@@ -1,5 +1,5 @@
 function yScrollHandler(){
-    var win = document.getElementById("peekaboo");
+    var win = document.getElementById("peekaboo5");
     if((window.pageYOffset + window.innerHeight) >= document.body.offsetHeight){
 	//win.style.webkitTransition = "right 0.7s ease-in-out 0s";
 	win.style.transition = "right 0.7s ease-in-out 0s";
