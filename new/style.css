@@ -87,8 +87,8 @@ li a:hover {
   .nav-link{
     position: absolute;
     right: 0px;
-    height: 97vh;
-    top: 3vh;
+    height: 95vh;
+    top: 5vh;
     background-color: #1f325c;
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@ li a:hover {
     width: 30%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-    z-index: 1000;
+    z-index: 100000;
   }
   .nav-link li{
     opacity: 1;
@@ -110,7 +110,6 @@ li a:hover {
   transform: translateX(0%);
 }
 
->>>>>>> fb35ad23ee07390dc5f43bd096b67a13dde24392
 .container {
   display: flex;
   flex-direction: column;
