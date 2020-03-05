@@ -3,6 +3,7 @@ html, body {
   width: 100%;
   height: auto;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 header  {
@@ -21,6 +22,14 @@ nav {
   box-shadow: 0px 1px 5px #444;
   font-family: ebrima;
   z-index: 100000;
+}
+
+.banner {
+  background-image: url(images/parkandbike2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
 }
 
 .logo {
@@ -117,11 +126,11 @@ li a:hover {
   align-items: center;
 }
 
-
-.info-header {
+/* IKKE SLET!!!!*/
+.banner {
   height: 100vh;
   background: #fff;
-  background-image: url("images/custom1.jpg");
+  background-image: url("images/parkandbike2.jpg");
   background-size: cover;
 }
 
