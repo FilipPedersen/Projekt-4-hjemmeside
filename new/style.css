@@ -452,11 +452,13 @@ h3{
 .step4{
   grid-column-start: 2;
   grid-column-end: 2;
+
+}
 /* Step by Step slut*/
 
 /* Prisen Animation */
 
-.pris_info {
+.pris_info_box {
   display: block;
   background-color: #fce000;
   height: 70vh;
@@ -638,6 +640,3 @@ h3{
       transform: translate3d(-50vw, 0px, 0px);
     }
   }
-
->>>>>>> a03d45dd41559e18742b66e731120809bd803a86
-}
