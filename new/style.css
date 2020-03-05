@@ -191,7 +191,7 @@ footer {
 
 #baggrund{
 
-  background-image: url("image/baggrund.png");
+  background-image: url("images/baggrund.png");
   height: 1200px;
   background-size: cover;
   width: 100%;
@@ -219,7 +219,7 @@ div#peekaboo{
     position:fixed;
     bottom:30px;
     right:0px;
-  background-image: url("image/hejhej.png");
+  background-image: url("images/hejhej.png");
     padding:25px;
     width:500px;
     height:500px;
