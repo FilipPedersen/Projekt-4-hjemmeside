@@ -295,19 +295,32 @@ color: #000000;
   }
   85%{
     letter-spacing: 8px;
-    margin-bottom: -40px;
+    margin-bottom: 18px;
 
   }
 }
+
+.overskrift{
+  margin-top: 1200px;
+  margin-bottom: -50px;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #1f325c;
+  border: 400px;
+}
+
+
 
 .grid-container5 {
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color: #1f325c;
   padding: 10px;
-  margin-top: 1300px;
+  margin-top: 50px;
   margin-bottom: -1000px;
+
 }
 
 .grid-container5 div{
@@ -315,6 +328,8 @@ color: #000000;
  text-align: center;
  padding: 20px 0;
  font-size: 30px;
+ background-color: #1f325c;
+
 }
 
 .pros {
@@ -324,7 +339,7 @@ color: #000000;
 
 .pros p{
   font-size: 25px;
-  color: black;
+  color: #ffffff;
 }
 
 .cons {
@@ -334,9 +349,10 @@ color: #000000;
 
 .cons p{
   font-size: 25px;
-  color: black;
+  color: #ffffff;
 }
 
+/* her slutter laura*/
 
 .info6{
   height: 70vh;
