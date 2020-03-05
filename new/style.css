@@ -567,3 +567,190 @@ color: black;
 section{
   background: #1f325c;
 }
+
+/* Prisen Animation */
+
+.pris_info {
+  display: block;
+  background-color: #fce000;
+  height: 70vh;
+  width: 100%;
+}
+
+#box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: inherit;
+  width: 100%;
+  background-color: #1f325c;
+  position: absolute;
+}
+
+#slider {
+  margin-right: 430vw;
+}
+
+#slider img {
+  height: 50vh;
+  position: relative;
+
+}
+
+.animate {
+  animation: animate 1s ease-in-out forwards;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-family: sans-serif;
+  color: #1f325c;
+  margin: 0px 5vh;
+}
+
+.titel {
+  margin: 0vw 30vw;
+}
+
+.titel h3 {
+   font-size: 2rem;
+   border-bottom: 5px solid #1f325c;
+   margin-top: 12vh;
+}
+
+.tal_box{
+  display: block;
+  text-align: center;
+}
+
+.pris {
+   font-size: 1.2rem;
+   font-family: sans-serif;
+   margin-left: 15px;
+}
+
+
+.kroner {
+   font-size: 8rem;
+}
+
+.gratis {
+   text-align: center;
+   font-size: 0.8rem;
+   font-family: sans-serif;
+}
+
+.knap {
+  padding: 5vh;
+}
+
+.btn {
+    font-family: sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid #1f325c 2px;
+    background-color: #1f325c;
+    padding: 5px 40px;
+}
+
+@keyframes animate {
+  from {
+    opacity: 1;
+    transform: translate3d(0vw, 0px, 0px);
+  }
+  to {
+    opacity: 1;
+    transition: all 1500ms linear;
+    transform: translate3d(-100vw, 0px, 0px);
+  }
+}
+
+/* IPhone X */
+@media screen and (min-height: 811px) {
+  #slider img {
+    height: 41vh;
+
+  }
+}
+
+/* Pixel 2XL */
+@media screen and (min-height: 822px) {
+  #slider img {
+    height: 44.25vh;
+
+  }
+}
+
+/* Ipad */
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+  #slider img {
+    height: 50vh;
+  }
+  #slider {
+    margin-right: 325%;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #slider img {
+    height: 50vh;
+  }
+  #slider {
+    margin-right: 200%;
+  }
+
+  .gratis {
+     font-size: 1rem;
+     padding: 0px 110px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  #slider img {
+    height: 50vh;
+  }
+  #slider {
+    margin-right: 135%;
+  }
+
+}
+
+@media screen and (min-width: 1500px) {
+  #slider img {
+    height: 50vh;
+  }
+  #slider {
+    margin-right: 53%;
+  }
+
+  .text_box {
+    margin-left: 50%;
+  }
+
+  .gratis {
+     font-size: 1rem;
+     padding: 0px 300px;
+  }
+
+  @keyframes animate {
+    from {
+      opacity: 1;
+      transform: translate3d(0vw, 0px, 0px);
+    }
+    to {
+      opacity: 1;
+      transition: all 1500ms linear;
+      transform: translate3d(-50vw, 0px, 0px);
+    }
+  }
+
+}
