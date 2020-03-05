@@ -185,7 +185,7 @@ footer {
 
 #baggrund{
 
-  background-image: url("images/baggrund.png");
+  background-image: url("images/baggrund123.png");
   height: 1200px;
   background-size: cover;
   width: 100%;
@@ -197,7 +197,7 @@ footer {
   background: white;
   width: 100%;
   height: 300px;
-  padding-top:
+  padding-top: 120px;
 
 
 }
@@ -247,6 +247,7 @@ div#peekaboo5 p{
   left: 50;
   width: 100%;
   color: black;
+  font-size: 25px;
 
 }
 
