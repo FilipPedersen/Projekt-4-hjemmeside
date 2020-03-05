@@ -24,6 +24,15 @@ nav {
   z-index: 100000;
 }
 
+.scrolldownarrow {
+  display: flex;
+  width: 40px;
+  height: auto;
+  margin-top: 100px;
+  align-items: center;
+  margin-left: 50%;
+}
+
 .banner {
   background-image: url(images/parkandbike2.jpg);
   background-repeat: no-repeat;
