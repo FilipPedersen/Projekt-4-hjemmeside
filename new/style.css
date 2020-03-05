@@ -24,6 +24,7 @@ nav {
   height: 6vh;
   box-shadow: 0px 1px 5px #444;
   font-family: ebrima;
+  z-index: 100000;
 }
 
 .logo {
