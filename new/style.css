@@ -176,10 +176,10 @@ h2 {
   background: red;
 }
 
-p {
+/* p {
   text-align: center;
   font-size: 100px;
-}
+} */
 
 footer {
   display: flex;
@@ -775,9 +775,69 @@ section{
 }
 /* Step by Step slut */
 
-/* Prisen Animation */
-.pris_info_box {
-  display: block;
+/* Oliver start */
+.formål {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  height: 150vh;
+  padding: 0px 30px;
+  background: #ffffff;
+  box-shadow: 0px -11px 11px 11px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  position: relative;
+}
+
+.formål h3 {
+  font-size: 1.5rem;
+  margin-top: 0px;
+  color: #1f325c;
+  font-style: bold;
+  font-family: "ebrima", sans-serif;
+}
+
+.formål p {
+  font-size: 1rem;
+  margin-top: 0px;
+  font-family: "ebrima", serif;
+}
+
+.formål img {
+  height: 8vh;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.formål_text_box {
+  padding: 30px 10px;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.værdier {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Oliver Start */
+
+.pris_info {
   background-color: #fce000;
   height: 70vh;
   width: 100%;
@@ -879,19 +939,172 @@ section{
   }
 }
 
+.footer_distributed{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+	background: #ffffff;
+	box-shadow: 0px 11px 11px 11px rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 20px 90px;
+	overflow: hidden;
+  z-index: 100;
+}
+
+
+/* Footer left */
+
+.footer_distributed .footer_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	float: left;
+}
+
+/* The company logo */
+
+#video2 {
+  height: 25vh;
+}
+
+.logo2 {
+  width: 55vw;
+  height: auto;
+  margin: 15px 0px;
+}
+
+.footer_distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer_distributed .footer_links{
+	color:  #1f325c;
+	margin: 0 0 10px;
+	padding: 0;
+  font-style: bold;
+  font-family: "ebrima", sans-serif;
+}
+
+.footer_links_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_distributed .footer_links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer_distributed .footer_links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer_company_name1{
+  display: none;
+	color:  #8f9296;
+	font-size: 14px;
+  font-family: "ebrima", sans-serif;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer_company_name2{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+  font-family: "ebrima", sans-serif;
+	margin: 0;
+}
+
+/* Footer social icons */
+.footer_icons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+	margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer_distributed .footer_icons a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background-color:  #1f325c;
+	border-radius: 4px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 40px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer_distributed .footer_right{
+	float: right;
+}
+
+.footer_distributed .footer_right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* Oliver Slut */
+
 /* IPhone X */
 @media screen and (min-height: 811px) {
+  .formål {
+    height: 110vh;
+  }
+
   #slider img {
     height: 41vh;
 
   }
+  .footer_distributed{
+  	padding: 20px 93px;
+    height: 60vh;
+  }
+
+  #video2 {
+    height: 20vh;
+  }
+
+  .footer_icons{
+  	margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
 }
 
 /* Pixel 2XL */
 @media screen and (min-height: 822px) {
+
+
   #slider img {
     height: 44.25vh;
-
   }
 }
 
@@ -905,12 +1118,37 @@ section{
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 766px) {
+  #slider {
+    margin-right: 200%;
+  }
+
+  .formål {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+  }
+
+  .formål img {
+    height: 8vh;
+    width: auto;
+    margin-bottom: 30px;
+  }
+
+  .formål_text_box {
+    padding: 50px 40px;
+  }
+}
+
+@media screen and (min-width: 830px) {
   #slider img {
     height: 50vh;
   }
   #slider {
-    margin-right: 200%;
+    margin-right: 375%;
   }
 
   .gratis {
@@ -918,6 +1156,46 @@ section{
      padding: 0px 110px;
   }
 
+    .footer_distributed{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+    	padding: 50px 0px;
+    }
+
+    .footer_icons{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    	margin-top: 10px;
+      margin-bottom: 25px;
+    }
+
+    .footer_distributed .footer_right{
+      margin-left: 10vh;
+    }
+
+    .logo2 {
+      width: 20vw;
+      height: auto;
+      margin: 15px 0px;
+    }
+
+    #video2 {
+      height: 30vh;
+    }
+
+    .footer_company_name1{
+      display: block;
+    }
+
+    .footer_company_name2{
+      display: none;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -958,6 +1236,10 @@ section{
       transform: translate3d(-50vw, 0px, 0px);
     }
   }
+
+}
+
+/*Oliver slut*/
 
 /*Koncept start mie*/
 
