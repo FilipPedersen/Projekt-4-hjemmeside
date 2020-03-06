@@ -639,6 +639,83 @@ color: #000000;
   text-align: center;
 }
 
+@media screen and (max-width: 1237px){
+  .step1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .imgborgerservice{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .imgchip{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .step2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .step3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .imgparkering{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .imgdamecykel{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .step4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+}
+
+/* Ipad */
+@media screen and (max-width: 768px){
+  .step1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .imgborgerservice{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .imgchip{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .step2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .step3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .imgparkering{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .imgdamecykel{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .step4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+}
 /* Step by Step slut */
 
 /* Prisen Animation */
