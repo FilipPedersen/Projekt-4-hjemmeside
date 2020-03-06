@@ -113,6 +113,9 @@ li a:hover {
     width: 30%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+<<<<<<< HEAD
+    z-index: 100000;
+=======
     z-index: 1000;
   }
   .nav-link li{
@@ -173,10 +176,10 @@ h2 {
   background: red;
 }
 
-p {
+/* p {
   text-align: center;
   font-size: 100px;
-}
+} */
 
 footer {
   display: flex;
@@ -505,8 +508,336 @@ color: #000000;
   font-weight: bold;
   text-align: center;
   color: #ffffff;
+<<<<<<< HEAD
   padding: 20px;
   padding-bottom: 5px;
+=======
+>>>>>>> de5103ff6f7c27fd39fb01b1c621bd83bd1cc717
+}
+
+.kontaktoplysninger h3 span{
+  color: #fece0c;
+}
+
+<<<<<<< HEAD
+.kontaktoplysninger p{
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.kontaktoplysninger p span{
+  color: #fece0c;
+  font-weight: bold;
+}
+
+section{
+  background-color: #1f325c;
+  width: 100%;
+  height: 100px;
+  margin-top: -20px;
+}
+
+@media(max-width: 1200px){
+  .info-box2{
+
+  }
+  .kontakt-wrapper{
+    left: 10%;
+  }
+}
+
+@media(max-width: 1000px){
+  .info-box2{
+    display: none;
+  }
+  .kontakt-wrapper{
+    left: 25%;
+  }
+  .kontaktoplysninger{
+    margin-top: -200px;
+  }
+}
+
+@media(max-width: 768px){
+  .kontakt-wrapper{
+    left: 20%;
+  }
+}
+
+@media(max-width: 650px){
+  .kontakt-wrapper{
+    left: 15%;
+  }
+}
+=======
+>>>>>>> de5103ff6f7c27fd39fb01b1c621bd83bd1cc717
+/* Step by Step */
+.tekststep p{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.step1 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step2 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step3 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step4 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step2 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step3 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step4 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.stepoverskrift h3{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.step1{
+  grid-column-start: 1 / 2;
+  grid-column-end: 1;
+}
+
+.imgborgerservice{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.imgchip{
+  grid-column-start: 1/2;
+  grid-column-end: 1;
+}
+
+.step2{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+.step3{
+  grid-column-start: 1/2;
+  grid-column-end: 1;
+}
+.imgparkering{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.imgdamecykel{
+  grid-column-start: 1/2;
+  grid-column-end: 1;
+}
+.step4{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+#steppeekaboo {
+  background: url(images/boble.png);
+  background-size: cover;
+  position: fixed;
+  bottom: 0px;
+  right: -352px;
+  padding: 40px;
+  height: 150px;
+  width: 250px;
+  text-align: center;
+  margin-bottom: 20px
+}
+
+#steppeekaboo p {
+  margin-top: 40px;
+  font-size: 25px;
+  color: #fce000;
+  text-align: center;
+}
+
+@media screen and (max-width: 1237px){
+  .step1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .imgborgerservice{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .imgchip{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .step2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .step3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .imgparkering{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .imgdamecykel{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .step4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+}
+
+/* Ipad */
+@media screen and (max-width: 768px){
+  .step1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .imgborgerservice{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .imgchip{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+
+  .step2{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .step3{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .imgparkering{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .imgdamecykel{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .step4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+}
+/* Step by Step slut */
+
+/* Oliver start */
+.formål {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  height: 150vh;
+  padding: 0px 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 11px 0px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  position: relative;
+}
+
+.formål h3 {
+  font-size: 1.5rem;
+  margin-top: 0px;
+  color: #1f325c;
+  font-style: bold;
+  font-family: "ebrima", sans-serif;
+}
+
+.formål p {
+  font-size: 1rem;
+  margin-top: 0px;
+  font-family: "ebrima", serif;
+}
+
+.formål img {
+  height: 8vh;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.formål_text_box {
+  padding: 30px 10px;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.værdier {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Oliver Start */
+
+.pris_info {
   background-color: #fce000;
   height: 70vh;
   width: 100%;
@@ -608,19 +939,172 @@ color: #000000;
   }
 }
 
+.footer_distributed{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+	background: #ffffff;
+	box-shadow: 0px 11px 11px 11px rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 20px 90px;
+	overflow: hidden;
+  z-index: 100;
+}
+
+
+/* Footer left */
+
+.footer_distributed .footer_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	float: left;
+}
+
+/* The company logo */
+
+#video2 {
+  height: 25vh;
+}
+
+.logo2 {
+  width: 55vw;
+  height: auto;
+  margin: 15px 0px;
+}
+
+.footer_distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer_distributed .footer_links{
+	color:  #1f325c;
+	margin: 0 0 10px;
+	padding: 0;
+  font-style: bold;
+  font-family: "ebrima", sans-serif;
+}
+
+.footer_links_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_distributed .footer_links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer_distributed .footer_links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer_company_name1{
+  display: none;
+	color:  #8f9296;
+	font-size: 14px;
+  font-family: "ebrima", sans-serif;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer_company_name2{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+  font-family: "ebrima", sans-serif;
+	margin: 0;
+}
+
+/* Footer social icons */
+.footer_icons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+	margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer_distributed .footer_icons a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background-color:  #1f325c;
+	border-radius: 4px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 40px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer_distributed .footer_right{
+	float: right;
+}
+
+.footer_distributed .footer_right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* Oliver Slut */
+
 /* IPhone X */
 @media screen and (min-height: 811px) {
+  .formål {
+    height: 110vh;
+  }
+
   #slider img {
     height: 41vh;
 
   }
+  .footer_distributed{
+  	padding: 20px 93px;
+    height: 60vh;
+  }
+
+  #video2 {
+    height: 20vh;
+  }
+
+  .footer_icons{
+  	margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
 }
 
 /* Pixel 2XL */
 @media screen and (min-height: 822px) {
+
+
   #slider img {
     height: 44.25vh;
-
   }
 }
 
@@ -664,7 +1148,7 @@ color: #000000;
     height: 50vh;
   }
   #slider {
-    margin-right: 200%;
+    margin-right: 375%;
   }
 
   .gratis {
@@ -672,6 +1156,46 @@ color: #000000;
      padding: 0px 110px;
   }
 
+    .footer_distributed{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+    	padding: 50px 0px;
+    }
+
+    .footer_icons{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    	margin-top: 10px;
+      margin-bottom: 25px;
+    }
+
+    .footer_distributed .footer_right{
+      margin-left: 10vh;
+    }
+
+    .logo2 {
+      width: 20vw;
+      height: auto;
+      margin: 15px 0px;
+    }
+
+    #video2 {
+      height: 30vh;
+    }
+
+    .footer_company_name1{
+      display: block;
+    }
+
+    .footer_company_name2{
+      display: none;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -712,6 +1236,10 @@ color: #000000;
       transform: translate3d(-50vw, 0px, 0px);
     }
   }
+
+}
+
+/*Oliver slut*/
 
 /*Koncept start mie*/
 
