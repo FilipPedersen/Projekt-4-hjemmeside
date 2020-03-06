@@ -508,12 +508,12 @@ color: #000000;
   font-weight: bold;
   text-align: center;
   color: #ffffff;
-
 }
 
 .kontaktoplysninger h3 span{
   color: #fece0c;
 }
+
 /* Step by Step */
 .tekststep p{
   font-size: 25px;
@@ -617,12 +617,31 @@ color: #000000;
 .step4{
   grid-column-start: 2;
   grid-column-end: 2;
-
 }
-/* Step by Step slut*/
+
+#steppeekaboo {
+  background: url(images/boble.png);
+  background-size: cover;
+  position: fixed;
+  bottom: 0px;
+  right: -352px;
+  padding: 40px;
+  height: 150px;
+  width: 250px;
+  text-align: center;
+  margin-bottom: 20px
+}
+
+#steppeekaboo p {
+  margin-top: 40px;
+  font-size: 25px;
+  color: #fce000;
+  text-align: center;
+}
+
+/* Step by Step slut */
 
 /* Prisen Animation */
-
 .pris_info_box {
   display: block;
   background-color: #fce000;
