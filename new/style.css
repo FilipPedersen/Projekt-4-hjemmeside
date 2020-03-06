@@ -4,6 +4,7 @@ html, body {
   height: auto;
   background-color: #ffffff;
   overflow-x: hidden;
+  font-family: ebrima;
 }
 
 header  {
@@ -22,6 +23,15 @@ nav {
   box-shadow: 0px 1px 5px #444;
   font-family: ebrima;
   z-index: 100000;
+}
+
+.scrolldownarrow {
+  display: flex;
+  width: 40px;
+  height: auto;
+  margin-top: 100px;
+  align-items: center;
+  margin-left: 50%;
 }
 
 .banner {
@@ -46,7 +56,7 @@ nav {
   overflow: hidden;
   justify-content: center;
   justify-content: space-around;
-  width: 30%;
+  width: 50%;
 }
 
 nav li {
@@ -66,8 +76,6 @@ li a:hover {
   transition: 0.5s ease;
 }
 
-<<<<<<< HEAD
-=======
 /* Burger menu */
 
 .burger {
@@ -105,7 +113,10 @@ li a:hover {
     width: 30%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+<<<<<<< HEAD
     z-index: 100000;
+=======
+    z-index: 1000;
   }
   .nav-link li{
     opacity: 1;
@@ -204,11 +215,12 @@ footer {
 .infoom{
   background: white;
   width: 100%;
-  height: 300px;
-  padding-top:
-
+  height: 200px;
+  padding-top: 120px;
 
 }
+
+
 
 .infoom p{
   font-size: 25px;
@@ -238,7 +250,9 @@ div#peekaboo5 p{
 .peekabookasse{
   height:1600px;
   font-size: 18px;
+  margin-bottom: -350px;
 }
+
 
 
 .info5{
@@ -255,6 +269,7 @@ div#peekaboo5 p{
   left: 50;
   width: 100%;
   color: black;
+  font-size: 25px;
 
 }
 
@@ -293,11 +308,64 @@ color: #000000;
   }
   85%{
     letter-spacing: 8px;
-    margin-bottom: -40px;
+    margin-bottom: 18px;
 
   }
 }
 
+.overskrift{
+  margin-top: 1200px;
+  margin-bottom: -50px;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #1f325c;
+  border: 400px;
+}
+
+
+
+.grid-container5 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #1f325c;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: -1000px;
+
+}
+
+.grid-container5 div{
+  background-color: rgba(255, 255, 255, 0.8);
+ text-align: center;
+ padding: 20px 0;
+ font-size: 30px;
+ background-color: #1f325c;
+
+}
+
+.pros {
+  grid-column-start: 1/2;
+ grid-column-end: 2;
+}
+
+.pros p{
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.cons {
+  grid-column-start: 2;
+ grid-column-end: 2;
+}
+
+.cons p{
+  font-size: 25px;
+  color: #ffffff;
+}
+
+/* her slutter laura*/
 
 .info6{
   height: 70vh;
@@ -360,7 +428,7 @@ color: #000000;
   resize: none;
 }
 
-.kontakt-wrapper .btn input[type="submit"]{
+.kontakt-wrapper .kon-btn input[type="submit"]{
   border: none;
   margin-top: 15px;
   padding: 10px;
@@ -384,8 +452,7 @@ color: #000000;
 .mobil{
 
   margin-right: 200px;
-  margin-top: -22%;
-  position: absolute;
+  margin-top: -370px;
 }
 
 .mobilkort{
@@ -399,9 +466,9 @@ color: #000000;
   height: 350px;
   background-color: #1f325c;
   border-radius: 10px;
-  float: right;
-  margin-right: 19%;
-  margin-top: 6%;
+  left: 55%;
+  margin-top: 170px;
+  position: absolute;
 }
 
 .info-box2 span{
@@ -427,7 +494,7 @@ color: #000000;
   width: 400px;
   height: 200px;
   background-color: #1f325c;
-  margin-top: -250px;
+  margin-top: -12%;
   left: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -455,6 +522,24 @@ color: #000000;
 }
 
 .step1 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step2 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step3 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step4 p{
   font-size: 25px;
   padding-top: 130px;
   text-align: center;
@@ -739,4 +824,164 @@ color: #000000;
       transform: translate3d(-50vw, 0px, 0px);
     }
   }
->>>>>>> cecea311b1fc41f1f6c41f2c5b3b06bba347f0af
+
+/*Koncept start mie*/
+
+div#peekaboo {
+  position: fixed;
+  bottom: 0px;
+  right: -352px;
+  background: #1f325c;
+  padding: 25px;
+  width: 300px;
+  height: 200px;
+  font-size: 48px;
+  color: #fce000;
+}
+
+.over video {
+  width: 100%
+}
+
+.over p {
+  font-size: 20px;
+  text-align: left;
+  font-family: ebrima;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.under p {
+  font-size: 20px;
+  text-align: left;
+  font-family: ebrima;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 100%;
+  height: 40vh;
+}
+
+.videobund{
+  float: left;
+  flex: auto;
+}
+
+@media screen and (max-width: 800px) {
+  div#peekaboo {
+    position: fixed;
+    bottom: 0px;
+    right: -352px;
+    background: #1f325c;
+    padding: 25px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    color: #fce000;
+  }
+
+  .over video {
+    width: 100%
+  }
+
+  .over p {
+    font-size: 10px;
+    text-align: left;
+    font-family: ebrima;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .under p {
+    font-size: 10px;
+    text-align: left;
+    font-family: ebrima;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 40vh;
+  }
+
+  .videobund{
+    float: left;
+    flex: auto;
+    width: 30%;
+  }
+
+
+  @media screen and (max-width: 320px) {
+    div#peekaboo {
+      position: fixed;
+      bottom: 0px;
+      right: -352px;
+      background: #1f325c;
+      padding: 25px;
+      width: 50px;
+      height: 25px;
+      font-size: 10px;
+      color: #fce000;
+    }
+
+    .over video {
+      width: 100%
+    }
+
+    .over p {
+      font-size: 10px;
+      text-align: left;
+      font-family: ebrima;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .under p {
+      font-size: 10px;
+      text-align: left;
+      font-family: ebrima;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 0%;
+      margin-bottom: 5%;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      width: 100%;
+      height: 40vh;
+    }
+
+    .videobund{
+      float: left;
+      flex: auto;
+      width: 30%;
+    }
+
+  }
+
+/*Koncept slut mie*/
