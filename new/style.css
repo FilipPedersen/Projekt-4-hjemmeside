@@ -4,10 +4,8 @@ html, body {
   height: auto;
   background-color: #ffffff;
   overflow-x: hidden;
-<<<<<<< HEAD
-=======
   font-family: ebrima;
->>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
+
 }
 
 header  {
@@ -28,8 +26,6 @@ nav {
   z-index: 100000;
 }
 
-<<<<<<< HEAD
-=======
 .scrolldownarrow {
   display: flex;
   width: 40px;
@@ -39,7 +35,7 @@ nav {
   margin-left: 50%;
 }
 
->>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
+
 .banner {
   background-image: url(images/parkandbike2.jpg);
   background-repeat: no-repeat;
@@ -82,8 +78,6 @@ li a:hover {
   transition: 0.5s ease;
 }
 
-<<<<<<< HEAD
-=======
 /* Burger menu */
 
 .burger {
@@ -121,11 +115,8 @@ li a:hover {
     width: 30%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-<<<<<<< HEAD
     z-index: 100000;
-=======
     z-index: 1000;
->>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
   }
   .nav-link li{
     opacity: 1;
@@ -139,7 +130,7 @@ li a:hover {
   transform: translateX(0%);
 }
 
->>>>>>> fb35ad23ee07390dc5f43bd096b67a13dde24392
+
 .container {
   display: flex;
   flex-direction: column;
@@ -220,7 +211,6 @@ footer {
   width: 100%;
   position: absolute;
   background-color: #ffffff;
-<<<<<<< HEAD
 }
 
 .infoom{
@@ -239,7 +229,6 @@ footer {
   text-align: center;
 }
 
-=======
 }
 
 .infoom{
@@ -259,7 +248,6 @@ footer {
   text-align: center;
 }
 
->>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
 div#peekaboo5{
     position:fixed;
     bottom:30px;
@@ -300,11 +288,7 @@ div#peekaboo5 p{
   left: 50;
   width: 100%;
   color: black;
-<<<<<<< HEAD
-=======
   font-size: 25px;
->>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
-
 }
 
 
@@ -327,8 +311,7 @@ div#peekaboo5 p{
 
 .lilletext5{
   font-size: 25px;
-color: #000000;
-
+  color: #000000;
 }
 
 @keyframes text{
@@ -486,12 +469,9 @@ color: #000000;
 .mobil{
 
   margin-right: 200px;
-<<<<<<< HEAD
   margin-top: -22%;
   position: absolute;
-=======
   margin-top: -370px;
->>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
 }
 
 .mobilkort{
@@ -505,15 +485,12 @@ color: #000000;
   height: 350px;
   background-color: #1f325c;
   border-radius: 10px;
-<<<<<<< HEAD
   float: right;
   margin-right: 19%;
   margin-top: 6%;
-=======
   left: 55%;
   margin-top: 170px;
   position: absolute;
->>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
 }
 
 .info-box2 span{
@@ -539,11 +516,8 @@ color: #000000;
   width: 400px;
   height: 200px;
   background-color: #1f325c;
-<<<<<<< HEAD
   margin-top: -250px;
-=======
   margin-top: -12%;
->>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
   left: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -601,14 +575,11 @@ color: #000000;
 }
 
 .step1 p{
->>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
   font-size: 25px;
   padding-top: 130px;
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
 .step2 p{
   font-size: 25px;
   padding-top: 130px;
@@ -627,7 +598,6 @@ color: #000000;
   text-align: center;
 }
 
->>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
 .stepoverskrift h3{
   text-align: center;
   font-size: 30px;
@@ -870,7 +840,3 @@ color: #000000;
       transform: translate3d(-50vw, 0px, 0px);
     }
   }
-<<<<<<< HEAD
-=======
->>>>>>> cecea311b1fc41f1f6c41f2c5b3b06bba347f0af
->>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
