@@ -1,36 +1,21 @@
-// get the element to animate
-var element = document.getElementById('box');
+var element = document.getElementById('box');                                           // finder og tager elementet så det kan animeres.
+var elementHeight = element.clientHeight;                                               // find elements højde
 
-var elementHeight = element.clientHeight;
+document.addEventListener('scroll', animate);                                           // Tilfør en "event listerner" (event lyter)  for "scroll eventen" and kald på animate funktionen
 
-// listen for scroll event and call animate function
-document.addEventListener('scroll', animate);
-
-// check if element is in view
-function inView() {
-  // get window height
-  var windowHeight = window.innerHeight;
-  // get number of pixels that the document is scrolled
-  var scrollY = window.scrollY || window.pageYOffset;
-
-  // get current scroll position (distance from the top of the page to the bottom of the current viewport)
-  var scrollPosition = scrollY + windowHeight;
-  // get element position (distance from the top of the page to the bottom of the element)
-  var elementPosition = element.getBoundingClientRect().top + scrollY + elementHeight;
-
-  // is scroll position greater than element position? (is element in view?)
-  if (scrollPosition > elementPosition) {
-    return true;
+function inView() {                                                                     // Tjek om elementet er i "view" (viewporten)
+  var windowHeight = window.innerHeight;                                                // få fat i vinduets højde
+  var scrollY = window.scrollY || window.pageYOffset;                                   // få fat i nummeret af pixler som vinduet er scollede
+  var scrollPosition = scrollY + windowHeight;                                          // få fat i den nuværrende scoll position (afstand fra toppen af siden til sluttning af den aktive viewport)
+  var elementPosition = element.getBoundingClientRect().top + scrollY + elementHeight;  // få fat i elementets position (afstand fra toppen af siden til til enden af elementet)
+  if (scrollPosition > elementPosition) {                                               // er scoll positionen sørrer end elementest position? (er elementet helt i view)
+    return true;                                                                        // Hvis ja, så return true.
   }
-
-  return false;
+  return false;                                                                         // Hvis nej, så return false.
 }
 
-// animate element when it is in view
-function animate() {
-  // is element in view?
-  if (inView()) {
-      // element is in view, add class to element
-      element.classList.add('animate');
+function animate() {                                                                    // Aktiver animation når elementet er i view.
+  if (inView()) {                                                                       // Er elemintet i view? Tjekker med funktionen.
+      element.classList.add('animate');                                                 // Hvis "inView" returner true, til føjes ny class og animation aktivers.
   }
 }
