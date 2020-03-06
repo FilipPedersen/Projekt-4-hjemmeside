@@ -1,5 +1,5 @@
 // get the element to animate
-var element = document.getElementById('box3');
+var element = document.getElementById('box');
 
 var elementHeight = element.clientHeight;
 

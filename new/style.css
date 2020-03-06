@@ -4,6 +4,10 @@ html, body {
   height: auto;
   background-color: #ffffff;
   overflow-x: hidden;
+<<<<<<< HEAD
+=======
+  font-family: ebrima;
+>>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
 }
 
 header  {
@@ -24,6 +28,18 @@ nav {
   z-index: 100000;
 }
 
+<<<<<<< HEAD
+=======
+.scrolldownarrow {
+  display: flex;
+  width: 40px;
+  height: auto;
+  margin-top: 100px;
+  align-items: center;
+  margin-left: 50%;
+}
+
+>>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
 .banner {
   background-image: url(images/parkandbike2.jpg);
   background-repeat: no-repeat;
@@ -105,7 +121,11 @@ li a:hover {
     width: 30%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+<<<<<<< HEAD
     z-index: 100000;
+=======
+    z-index: 1000;
+>>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
   }
   .nav-link li{
     opacity: 1;
@@ -119,6 +139,7 @@ li a:hover {
   transform: translateX(0%);
 }
 
+>>>>>>> fb35ad23ee07390dc5f43bd096b67a13dde24392
 .container {
   display: flex;
   flex-direction: column;
@@ -199,6 +220,7 @@ footer {
   width: 100%;
   position: absolute;
   background-color: #ffffff;
+<<<<<<< HEAD
 }
 
 .infoom{
@@ -217,6 +239,27 @@ footer {
   text-align: center;
 }
 
+=======
+}
+
+.infoom{
+  background: white;
+  width: 100%;
+  height: 200px;
+  padding-top: 120px;
+
+}
+
+
+
+.infoom p{
+  font-size: 25px;
+  color: black;
+  font-family: ebrima;
+  text-align: center;
+}
+
+>>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
 div#peekaboo5{
     position:fixed;
     bottom:30px;
@@ -238,7 +281,9 @@ div#peekaboo5 p{
 .peekabookasse{
   height:1600px;
   font-size: 18px;
+  margin-bottom: -350px;
 }
+
 
 
 .info5{
@@ -255,6 +300,10 @@ div#peekaboo5 p{
   left: 50;
   width: 100%;
   color: black;
+<<<<<<< HEAD
+=======
+  font-size: 25px;
+>>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
 
 }
 
@@ -293,11 +342,64 @@ color: #000000;
   }
   85%{
     letter-spacing: 8px;
-    margin-bottom: -40px;
+    margin-bottom: 18px;
 
   }
 }
 
+.overskrift{
+  margin-top: 1200px;
+  margin-bottom: -50px;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #1f325c;
+  border: 400px;
+}
+
+
+
+.grid-container5 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #1f325c;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: -1000px;
+
+}
+
+.grid-container5 div{
+  background-color: rgba(255, 255, 255, 0.8);
+ text-align: center;
+ padding: 20px 0;
+ font-size: 30px;
+ background-color: #1f325c;
+
+}
+
+.pros {
+  grid-column-start: 1/2;
+ grid-column-end: 2;
+}
+
+.pros p{
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.cons {
+  grid-column-start: 2;
+ grid-column-end: 2;
+}
+
+.cons p{
+  font-size: 25px;
+  color: #ffffff;
+}
+
+/* her slutter laura*/
 
 .info6{
   height: 70vh;
@@ -360,7 +462,7 @@ color: #000000;
   resize: none;
 }
 
-.kontakt-wrapper .btn input[type="submit"]{
+.kontakt-wrapper .kon-btn input[type="submit"]{
   border: none;
   margin-top: 15px;
   padding: 10px;
@@ -384,8 +486,12 @@ color: #000000;
 .mobil{
 
   margin-right: 200px;
+<<<<<<< HEAD
   margin-top: -22%;
   position: absolute;
+=======
+  margin-top: -370px;
+>>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
 }
 
 .mobilkort{
@@ -399,9 +505,15 @@ color: #000000;
   height: 350px;
   background-color: #1f325c;
   border-radius: 10px;
+<<<<<<< HEAD
   float: right;
   margin-right: 19%;
   margin-top: 6%;
+=======
+  left: 55%;
+  margin-top: 170px;
+  position: absolute;
+>>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
 }
 
 .info-box2 span{
@@ -427,7 +539,11 @@ color: #000000;
   width: 400px;
   height: 200px;
   background-color: #1f325c;
+<<<<<<< HEAD
   margin-top: -250px;
+=======
+  margin-top: -12%;
+>>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
   left: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -446,6 +562,7 @@ color: #000000;
 
 .kontaktoplysninger h3 span{
   color: #fece0c;
+<<<<<<< HEAD
 }
 /* Step by Step */
 .tekststep p{
@@ -473,11 +590,44 @@ color: #000000;
 }
 
 .step4 p{
+=======
+}
+
+/* Step by Step */
+.tekststep p{
+  font-size: 25px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.step1 p{
+>>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
   font-size: 25px;
   padding-top: 130px;
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+.step2 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step3 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+.step4 p{
+  font-size: 25px;
+  padding-top: 130px;
+  text-align: center;
+}
+
+>>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
 .stepoverskrift h3{
   text-align: center;
   font-size: 30px;
@@ -720,3 +870,7 @@ color: #000000;
       transform: translate3d(-50vw, 0px, 0px);
     }
   }
+<<<<<<< HEAD
+=======
+>>>>>>> cecea311b1fc41f1f6c41f2c5b3b06bba347f0af
+>>>>>>> ce236975add653c26147db3229f8d5cfa8238ebe
