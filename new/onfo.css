@@ -1,0 +1,137 @@
+/*Mie har kodet herfra*/
+body {
+  background-color: #fff;
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+}
+
+div#peekaboo {
+  position: fixed;
+  bottom: 0px;
+  right: -352px;
+  background: #1f325c;
+  padding: 25px;
+  width: 300px;
+  height: 200px;
+  font-size: 48px;
+  color: #fce000;
+}
+
+.over video {
+  width: 100%
+}
+
+.over p {
+  font-size: 20px;
+  text-align: left;
+  font-family: ebrima;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.under p {
+  font-size: 20px;
+  text-align: left;
+  font-family: ebrima;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+
+.videobund{
+  float: left;
+  flex: auto;
+}
+
+@media screen and (max-width: 800px) {
+  div#peekaboo {
+    position: fixed;
+    bottom: 0px;
+    right: -352px;
+    background: #1f325c;
+    padding: 25px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    color: #fce000;
+  }
+
+  .over video {
+    width: 100%
+  }
+
+  .over p {
+    font-size: 10px;
+    text-align: left;
+    font-family: ebrima;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .under p {
+    font-size: 10px;
+    text-align: left;
+    font-family: ebrima;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+  }
+
+
+
+  .videobund{
+    float: left;
+    flex: auto;
+    width: 30%;
+  }
+
+
+  @media screen and (max-width: 320px) {
+    div#peekaboo {
+      position: fixed;
+      bottom: 0px;
+      right: -352px;
+      background: #1f325c;
+      padding: 25px;
+      width: 50px;
+      height: 25px;
+      font-size: 10px;
+      color: #fce000;
+    }
+
+    .over video {
+      width: 100%
+    }
+
+    .over p {
+      font-size: 10px;
+      text-align: left;
+      font-family: ebrima;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .under p {
+      font-size: 10px;
+      text-align: left;
+      font-family: ebrima;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 0%;
+      margin-bottom: 5%;
+    }
+
+  
+
+    .videobund{
+      float: left;
+      flex: auto;
+      width: 30%;
+    }
+
+  }
+/*Mie har kodet hertil*/
