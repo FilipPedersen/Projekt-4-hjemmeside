@@ -363,6 +363,29 @@ color: #000000;
   color: #ffffff;
 }
 
+.grid-containerwc{
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+
+}
+
+.grid-container > div{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#wcvideo {
+  height: 50vw;
+}
+
+#wcvideo2 {
+  height: 50vw;
+}
+
+
+
 /* her slutter laura*/
 
 .info6{
