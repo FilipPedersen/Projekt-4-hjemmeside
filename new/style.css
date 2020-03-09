@@ -47,6 +47,7 @@ nav {
   position: fixed;
   margin-left: 20px;
   left: 0px;
+  height: 55px;
 }
 
 .nav-link {
@@ -264,7 +265,7 @@ div#peekaboo5 p{
 .dropdowntext5{
   text-align: center;
   position: absolute;
-  left: 50;
+  left: 50px;
   width: 100%;
   color: black;
   font-size: 25px;
@@ -344,7 +345,7 @@ color: #000000;
 }
 
 .pros {
-  grid-column-start: 1/2;
+  grid-column-start: 1;
  grid-column-end: 2;
 }
 
@@ -633,7 +634,7 @@ section{
 }
 
 .step1{
-  grid-column-start: 1 / 2;
+  grid-column-start: 1;
   grid-column-end: 1;
 }
 
@@ -643,7 +644,7 @@ section{
 }
 
 .imgchip{
-  grid-column-start: 1/2;
+  grid-column-start: 1;
   grid-column-end: 1;
 }
 
@@ -652,7 +653,7 @@ section{
   grid-column-end: 2;
 }
 .step3{
-  grid-column-start: 1/2;
+  grid-column-start: 1;
   grid-column-end: 1;
 }
 .imgparkering{
@@ -661,7 +662,7 @@ section{
 }
 
 .imgdamecykel{
-  grid-column-start: 1/2;
+  grid-column-start: 1;
   grid-column-end: 1;
 }
 .step4{
@@ -787,7 +788,7 @@ section{
   font-size: 1.5rem;
   margin-top: 0px;
   color: #1f325c;
-  font-style: bold;
+  font-style: normal;
   font-family: "ebrima", sans-serif;
 }
 
@@ -979,7 +980,7 @@ section{
 	color:  #1f325c;
 	margin: 0 0 10px;
 	padding: 0;
-  font-style: bold;
+  font-style: normal;
   font-family: "ebrima", sans-serif;
 }
 
@@ -1315,6 +1316,7 @@ div#peekaboo {
     flex: auto;
     width: 30%;
   }
+}
 
 
   @media screen and (max-width: 320px) {
@@ -1329,11 +1331,9 @@ div#peekaboo {
       font-size: 10px;
       color: #fce000;
     }
-
     .over video {
       width: 100%
     }
-
     .over p {
       font-size: 10px;
       text-align: left;
@@ -1341,7 +1341,6 @@ div#peekaboo {
       margin-left: 10%;
       margin-right: 10%;
     }
-
     .under p {
       font-size: 10px;
       text-align: left;
@@ -1351,14 +1350,9 @@ div#peekaboo {
       margin-top: 0%;
       margin-bottom: 5%;
     }
-
-
-    .videobund{
+    .videobund {
       float: left;
       flex: auto;
       width: 30%;
     }
-
-  }
-
-/*Koncept slut mie*/
+}
