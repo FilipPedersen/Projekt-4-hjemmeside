@@ -508,21 +508,18 @@ color: #000000;
   font-weight: bold;
   text-align: center;
   color: #ffffff;
-<<<<<<< HEAD
   padding: 20px;
   padding-bottom: 5px;
-=======
->>>>>>> de5103ff6f7c27fd39fb01b1c621bd83bd1cc717
 }
 
 .kontaktoplysninger h3 span{
   color: #fece0c;
 }
 
-<<<<<<< HEAD
 .kontaktoplysninger p{
   font-size: 1rem;
   color: #ffffff;
+  text-align: center;
 }
 
 .kontaktoplysninger p span{
@@ -569,8 +566,6 @@ section{
     left: 15%;
   }
 }
-=======
->>>>>>> de5103ff6f7c27fd39fb01b1c621bd83bd1cc717
 /* Step by Step */
 .tekststep p{
   font-size: 25px;
