@@ -201,9 +201,11 @@ footer {
   background: #ffffff;
 }
 
+
+
 #baggrund{
 
-  background-image: url("images/baggrund.png");
+  background-image: url("images/baggrund123.png");
   height: 1200px;
   background-size: cover;
   width: 100%;
@@ -215,7 +217,7 @@ footer {
   background: white;
   width: 100%;
   height: 200px;
-  padding-top: 120px;
+  padding-top: 30px;
 
 }
 
@@ -230,18 +232,20 @@ footer {
 
 div#peekaboo5{
     position:fixed;
-    bottom:30px;
-    right:0px;
+    bottom:0px;
+    right:-352px;
   background-image: url("images/hejhej.png");
-    padding:25px;
+    padding:40px;
     width:500px;
     height:400px;
+    margin-bottom: 20px;
 }
 
 div#peekaboo5 p{
   font-size: 25px;
   text-align: center;
-  padding-right: 80px;
+  padding-right: 100px;
+  margin-top: 4px;
   color: black;
   font-family: ebrima;
 }
@@ -249,7 +253,7 @@ div#peekaboo5 p{
 .peekabookasse{
   height:1600px;
   font-size: 18px;
-  margin-bottom: -350px;
+  margin-bottom: -100px;
 }
 
 
@@ -363,6 +367,41 @@ color: #000000;
   font-size: 25px;
   color: #ffffff;
 }
+
+.grid-containerwc{
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  background-color: #1f325c;
+  margin-top: 60px;
+
+}
+
+.bwoverskrift{
+margin-left: 60px;
+}
+
+.cwcoverskrift{
+  margin-left: 50px;
+
+}
+
+
+.grid-container > div{
+  display: flex;
+
+}
+
+#wcvideo {
+  height: 25vw;
+}
+
+#wcvideo2 {
+  height: 25vw;
+}
+
+
 
 /* her slutter laura*/
 

@@ -7,7 +7,7 @@ function yScrollHandler(){
     } else {
 	win.style.transition = "right 0.2s ease-in-out 0s";
 	win.style.right = "-1000px";
-  win.style.bottom ="300px";
+  win.style.bottom = "380px";
     }
 }
 window.onscroll = yScrollHandler;
