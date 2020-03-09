@@ -113,9 +113,7 @@ li a:hover {
     width: 30%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-<<<<<<< HEAD
     z-index: 100000;
-=======
     z-index: 1000;
   }
   .nav-link li{
@@ -771,7 +769,7 @@ section{
 /* Step by Step slut */
 
 /* Oliver start */
-.formål {
+.formaal {
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -785,7 +783,7 @@ section{
   position: relative;
 }
 
-.formål h3 {
+.formaal h3 {
   font-size: 1.5rem;
   margin-top: 0px;
   color: #1f325c;
@@ -793,19 +791,19 @@ section{
   font-family: "ebrima", sans-serif;
 }
 
-.formål p {
+.formaal p {
   font-size: 1rem;
   margin-top: 0px;
   font-family: "ebrima", serif;
 }
 
-.formål img {
+.formaal img {
   height: 8vh;
   width: auto;
   margin-bottom: 20px;
 }
 
-.formål_text_box {
+.formaal_text_box {
   padding: 30px 10px;
 }
 
@@ -823,14 +821,12 @@ section{
   align-items: center;
 }
 
-.værdier {
+.vaerdier {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-
-/* Oliver Start */
 
 .pris_info {
   background-color: #fce000;
@@ -1066,8 +1062,6 @@ section{
 	color: #ffffff;
 }
 
-/* Oliver Slut */
-
 /* IPhone X */
 @media screen and (min-height: 811px) {
   .formål {
@@ -1118,7 +1112,7 @@ section{
     margin-right: 200%;
   }
 
-  .formål {
+  .formaal {
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -1127,13 +1121,13 @@ section{
     height: 50vh;
   }
 
-  .formål img {
+  .formaal img {
     height: 8vh;
     width: auto;
     margin-bottom: 30px;
   }
 
-  .formål_text_box {
+  .formaal_text_box {
     padding: 50px 11px;
   }
 }
